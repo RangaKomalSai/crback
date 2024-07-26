@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '=d4d=fd06d8uz2omd90z1ruq+u8n)fl^#i3*2k$()3a%9v&jc)3s99b^bd**'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["54.235.43.48"]
 
 
 # Application definition
@@ -54,8 +54,8 @@ MIDDLEWARE = [
 ]
 CORS_ALLOWED_ORIGINS = [
     'http://cr.abhyudayiitb.org',
-    'http://127.0.0.1:8000',
-    'http://localhost:3000',
+    # 'http://127.0.0.1:8000',
+    # 'http://localhost:3000',
 ]
 
 # Optional: Allow credentials (cookies, authorization headers) to be included in cross-origin requests
@@ -140,12 +140,12 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# #https settings
-# SESSION_COOKIE_SECURE = True
-# CSRF_COOKIE_SECURE = True
-# SECURE_SSL_REDIRECT= True
+#https settings
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+SECURE_SSL_REDIRECT= True
 
-# #hsts settings
-# SECURE_HSTS_SECONDS = 31536000
-# SECURE_HSTS_PRELOAD = True
-# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+#hsts settings
+SECURE_HSTS_SECONDS = 31536000
+SECURE_HSTS_PRELOAD = True
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
