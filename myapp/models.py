@@ -41,7 +41,7 @@ class UserProfile(models.Model):
     school = models.CharField(max_length=200, default="", blank=True, null=True)
     year_of_study = models.CharField(max_length=20, default="")
     representative_type = models.CharField(max_length=10, choices=REPRESENTATIVE_CHOICES, default='college')
-    unique_id = models.CharField(max_length=50, unique=True, default="")
+    unique_id = models.CharField(max_length=50, default="")
 
     def __str__(self):
         return self.name
@@ -65,7 +65,7 @@ from django.db import models
 
 class UniqueID(models.Model):
     representative_type = models.CharField(max_length=50)  # 'college' or 'school'
-    unique_id = models.CharField(max_length=50, unique=True)
+    unique_id = models.CharField(max_length=50)
     is_used = models.BooleanField(default=False)
 
     def __str__(self):

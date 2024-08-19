@@ -70,9 +70,18 @@ def google_login(request):
             if response.status_code == 200:
                 user_info = response.json()
                 email = user_info.get('email')
-                User = get_user_model()
-                user, created = User.objects.get_or_create(email=email)
 
+                User = get_user_model()
+                user = User.objects.filter(email=email).first()
+                created = False
+
+                if not user:
+                    username = email.split('@')[0]
+                    try:
+                        user = User.objects.create(username=username, email=email)
+                        created = True
+                    except IntegrityError:
+                        return JsonResponse({'error': 'A user with this email or username already exists'}, status=400)
                 # Set the redirect URL based on whether the user is new or existing
                 redirect_url = '/details' if created else '/dashboard'
 

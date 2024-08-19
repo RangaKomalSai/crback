@@ -26,7 +26,7 @@ SECRET_KEY = '=d4d=fd06d8uz2omd90z1ruq+u8n)fl^#i3*2k$()3a%9v&jc)3s99b^bd**'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["54.235.43.48"]
+ALLOWED_HOSTS = ["54.235.43.48", "cr.abhyudayiitb.org"]
 
 
 # Application definition
@@ -54,6 +54,7 @@ MIDDLEWARE = [
 ]
 CORS_ALLOWED_ORIGINS = [
     'http://cr.abhyudayiitb.org',
+    'https://cr.abhyudayiitb.org'
     # 'http://127.0.0.1:8000',
     # 'http://localhost:3000',
 ]
@@ -62,7 +63,7 @@ CORS_ALLOWED_ORIGINS = [
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_ALL_ORIGINS = True
 
-CSRF_TRUSTED_ORIGINS = ['http://localhost:3000','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:3000','https://*.127.0.0.1',"https://cr.abhyudayiitb.org"]
 
 CSRF_COOKIE_HTTPONLY = False
 
@@ -132,8 +133,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+STATIC_URL = 'api/static/'
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+STATIC_ROOT = '/home/ubuntu/crback/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
@@ -141,11 +143,11 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #https settings
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
-SECURE_SSL_REDIRECT= True
+#SESSION_COOKIE_SECURE = True
+#CSRF_COOKIE_SECURE = True
+#SECURE_SSL_REDIRECT= True
 
 #hsts settings
-SECURE_HSTS_SECONDS = 31536000
-SECURE_HSTS_PRELOAD = True
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+#SECURE_HSTS_SECONDS = 31536000
+#SECURE_HSTS_PRELOAD = True
+#SECURE_HSTS_INCLUDE_SUBDOMAINS = True
