@@ -5,7 +5,9 @@
             "districts": [
                 {
                     "name": "Anantapur",
-                    "colleges": [],
+                    "colleges": [
+                        "UoPeople"
+                    ],
                     "schools": [
                         "uday1"
                     ]
@@ -22,7 +24,11 @@
                 },
                 {
                     "name": "Guntur",
-                    "colleges": [],
+                    "colleges": [
+                        "KITS AKSHAR INSTITUTE OF TECHNOLOGY",
+                        "VIGNAN UNIVERSITY",
+                        "Acharya Nagarjuna University "
+                    ],
                     "schools": []
                 },
                 {
@@ -699,7 +705,9 @@
                 },
                 {
                     "name": "Raipur",
-                    "colleges": [],
+                    "colleges": [
+                        "Bhartiya Vidyapeeth College of Engineering Pune"
+                    ],
                     "schools": []
                 },
                 {
@@ -895,7 +903,10 @@
                 {
                     "name": "Gandhinagar",
                     "colleges": [
-                        "Institute of Advanced Research "
+                        "Institute of Advanced Research ",
+                        "RASHTRIYA RAKSHYA UNIVERSITY ",
+                        "IIT Gandhinagar",
+                        "Pandit Deendayal Energy University "
                     ],
                     "schools": []
                 },
@@ -980,7 +991,8 @@
                     "name": "Surat",
                     "colleges": [
                         "zs patel",
-                        "J. P .Dawer Institute of Information Science and Technology"
+                        "J. P .Dawer Institute of Information Science and Technology",
+                        "Sarvajanik College of Engineering and Technology"
                     ],
                     "schools": []
                 },
@@ -1032,7 +1044,8 @@
                     "name": "Faridabad",
                     "colleges": [
                         "University Institute of Engineering and Technology, kurukshetra",
-                        "Jc Bose university ymca faridabad "
+                        "Jc Bose university ymca faridabad ",
+                        "Gurugram global college of pharmacy, farruknagar "
                     ],
                     "schools": []
                 },
@@ -1045,7 +1058,8 @@
                     "name": "Gurgaon",
                     "colleges": [
                         "Gurugram Global College of Pharmacy ",
-                        "GD Goenka University Sohna"
+                        "GD Goenka University Sohna",
+                        "The  NorthCap University"
                     ],
                     "schools": []
                 },
@@ -1344,7 +1358,9 @@
                 },
                 {
                     "name": "Dhanbad",
-                    "colleges": [],
+                    "colleges": [
+                        "BIT SINDRI "
+                    ],
                     "schools": []
                 },
                 {
@@ -1423,12 +1439,16 @@
                 },
                 {
                     "name": "Ramgarh",
-                    "colleges": [],
+                    "colleges": [
+                        "Ramgarh ENGINEERING COLLEGE "
+                    ],
                     "schools": []
                 },
                 {
                     "name": "Ranchi",
-                    "colleges": [],
+                    "colleges": [
+                        "Central University of Jharkhand "
+                    ],
                     "schools": [
                         "Manan Vidya"
                     ]
@@ -1481,7 +1501,8 @@
                 {
                     "name": "Bengaluru (Bangalore) Urban",
                     "colleges": [
-                        "Nitte Meenakshi Institute of college"
+                        "Nitte Meenakshi Institute of college",
+                        "CMR UNIVERSITY "
                     ],
                     "schools": []
                 },
@@ -1596,7 +1617,9 @@
                 },
                 {
                     "name": "Udupi",
-                    "colleges": [],
+                    "colleges": [
+                        "MANIPAL INSTITUTE OF TECHNOLOGY"
+                    ],
                     "schools": []
                 },
                 {
@@ -1796,7 +1819,8 @@
                     "colleges": [
                         "Technocrats institute of technology & sciences",
                         "LNCT Group Of Colleges",
-                        "Vellore Institute Of Technology "
+                        "Vellore Institute Of Technology ",
+                        "TECHNOCRATS INSTITUTE OF TECHNOLOGY BHOPAL"
                     ],
                     "schools": []
                 },
@@ -1827,7 +1851,9 @@
                 },
                 {
                     "name": "Dewas",
-                    "colleges": [],
+                    "colleges": [
+                        "vellore institute of technology , bhopal"
+                    ],
                     "schools": []
                 },
                 {
@@ -1847,7 +1873,9 @@
                 },
                 {
                     "name": "Gwalior",
-                    "colleges": [],
+                    "colleges": [
+                        "Madhav institute of technology and science "
+                    ],
                     "schools": []
                 },
                 {
@@ -1865,7 +1893,9 @@
                     "colleges": [
                         "Institute of engineering and technology DAVV, indore",
                         "SGSITS",
-                        "IPS ACADEMY"
+                        "IPS ACADEMY",
+                        "Devi Ahilya Vishwa Vidyalaya Indore ",
+                        "Asian Institute of professional studies"
                     ],
                     "schools": []
                 },
@@ -1953,12 +1983,16 @@
                 },
                 {
                     "name": "Satna",
-                    "colleges": [],
+                    "colleges": [
+                        "Vindhya Institute Of Technology and Science "
+                    ],
                     "schools": []
                 },
                 {
                     "name": "Sehore",
-                    "colleges": [],
+                    "colleges": [
+                        "VIT BHOPAL"
+                    ],
                     "schools": []
                 },
                 {
@@ -2042,7 +2076,9 @@
                 },
                 {
                     "name": "Aurangabad",
-                    "colleges": [],
+                    "colleges": [
+                        "Deogiri Institute of Engineering and Management Studies "
+                    ],
                     "schools": []
                 },
                 {
@@ -2114,19 +2150,24 @@
                     "colleges": [
                         "IITB ",
                         "iitb",
-                        "NMIMS NAVI MUMBAI "
+                        "NMIMS NAVI MUMBAI ",
+                        "National Law University, Mumbai"
                     ],
                     "schools": []
                 },
                 {
                     "name": "Mumbai Suburban",
-                    "colleges": [],
+                    "colleges": [
+                        "Patkar varde college",
+                        "Saraf college"
+                    ],
                     "schools": []
                 },
                 {
                     "name": "Nagpur",
                     "colleges": [
-                        "RTMNU"
+                        "RTMNU",
+                        "GHRCEM "
                     ],
                     "schools": []
                 },
@@ -2143,7 +2184,9 @@
                 {
                     "name": "Nashik",
                     "colleges": [
-                        "Dr. Vasantrao pawar medical college"
+                        "Dr. Vasantrao pawar medical college",
+                        "R. H SAPAT COLLEGE OF ENGINNERING, NASHIK",
+                        "K. V. Naik college"
                     ],
                     "schools": []
                 },
@@ -2169,14 +2212,20 @@
                         "Symbiosis College of Arts and Commerce",
                         "Savitribai phule Pune University ",
                         "MIT WPU",
-                        "Government polytechnic Awasari kh "
+                        "Government polytechnic Awasari kh ",
+                        "Bharati Vidyapeeth Deemed to be university ",
+                        "Fergusson College Pune",
+                        "Gh raisoni college of engineering and management, pune ",
+                        "Sir Parashurambhau College",
+                        "Vpkbiet "
                     ],
                     "schools": []
                 },
                 {
                     "name": "Raigad",
                     "colleges": [
-                        "PILLAI INSTITUTE OF MANAGEMENT STUDIES AND RESEARCH  (PIMSR)"
+                        "PILLAI INSTITUTE OF MANAGEMENT STUDIES AND RESEARCH  (PIMSR)",
+                        "Vidyalankar Institute of technology "
                     ],
                     "schools": []
                 },
@@ -2202,13 +2251,16 @@
                 },
                 {
                     "name": "Solapur",
-                    "colleges": [],
+                    "colleges": [
+                        "VIT Bhopal Univeristy"
+                    ],
                     "schools": []
                 },
                 {
                     "name": "Thane",
                     "colleges": [
-                        "K. C. College of Engineering and Management Studies and Research. "
+                        "K. C. College of Engineering and Management Studies and Research. ",
+                        "IITM"
                     ],
                     "schools": []
                 },
@@ -2576,7 +2628,9 @@
                     "name": "Khordha",
                     "colleges": [
                         "Srusti academy of management ",
-                        "Silicon university, bhubaneswar "
+                        "Silicon university, bhubaneswar ",
+                        "Institute of Technical Education and Research, Bhubaneswar ",
+                        "Institute of Agricultural Sciences, SOA University"
                     ],
                     "schools": []
                 },
@@ -2592,7 +2646,9 @@
                 },
                 {
                     "name": "Mayurbhanj",
-                    "colleges": [],
+                    "colleges": [
+                        "Iter college bhubaneswar "
+                    ],
                     "schools": []
                 },
                 {
@@ -2899,7 +2955,8 @@
                 {
                     "name": "Jodhpur",
                     "colleges": [
-                        "Amrita university "
+                        "Amrita university ",
+                        "Manipal University Jaipur"
                     ],
                     "schools": []
                 },
@@ -2967,7 +3024,8 @@
                 {
                     "name": "Udaipur",
                     "colleges": [
-                        "rajasthan technical university"
+                        "rajasthan technical university",
+                        "Techno India NJR Institute of Technology Udaipur"
                     ],
                     "schools": []
                 }
@@ -3009,7 +3067,10 @@
                 {
                     "name": "Chennai",
                     "colleges": [
-                        "Karpagam College of Engineering"
+                        "Karpagam College of Engineering",
+                        "IIT MADRAS",
+                        "St.Joseph's College OF Engineering",
+                        "St.Joseph's College Of Engineering "
                     ],
                     "schools": []
                 },
@@ -3187,7 +3248,8 @@
                 {
                     "name": "Hyderabad",
                     "colleges": [
-                        "Shadan college of engineering and technology "
+                        "Shadan college of engineering and technology ",
+                        "G. Narayanamma Institute of Technology and Sciences"
                     ],
                     "schools": []
                 },
@@ -3533,7 +3595,9 @@
                 {
                     "name": "Barabanki",
                     "colleges": [],
-                    "schools": []
+                    "schools": [
+                        "Aacharya Shri Chandra Dev Inter College "
+                    ]
                 },
                 {
                     "name": "Bareilly",
@@ -3621,14 +3685,17 @@
                     "colleges": [
                         "JSSATE, Noida",
                         "IIMT COLLEGE OF engineering ",
-                        "Bennett University"
+                        "Bennett University",
+                        "JSS ACADEMY OF TECHNICAL EDUCATION NOIDA"
                     ],
                     "schools": []
                 },
                 {
                     "name": "Ghaziabad",
                     "colleges": [
-                        "University Institute of Engineering and Technology Kurukshetra "
+                        "University Institute of Engineering and Technology Kurukshetra ",
+                        "SRMIST",
+                        "KCC INSTITUTE OF TECHNOLOGY AND MANAGEMENT, GREATER NOIDA "
                     ],
                     "schools": []
                 },
@@ -3696,7 +3763,9 @@
                 },
                 {
                     "name": "Kanpur Nagar",
-                    "colleges": [],
+                    "colleges": [
+                        "Vellore institute of technology "
+                    ],
                     "schools": []
                 },
                 {
