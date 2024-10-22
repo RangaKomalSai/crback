@@ -992,7 +992,8 @@
                     "colleges": [
                         "zs patel",
                         "J. P .Dawer Institute of Information Science and Technology",
-                        "Sarvajanik College of Engineering and Technology"
+                        "Sarvajanik College of Engineering and Technology",
+                        "Department of computer science , vnsgu "
                     ],
                     "schools": []
                 },
@@ -2151,7 +2152,8 @@
                         "IITB ",
                         "iitb",
                         "NMIMS NAVI MUMBAI ",
-                        "National Law University, Mumbai"
+                        "National Law University, Mumbai",
+                        "S.K Somiya "
                     ],
                     "schools": []
                 },
@@ -2261,7 +2263,8 @@
                     "name": "Thane",
                     "colleges": [
                         "K. C. College of Engineering and Management Studies and Research. ",
-                        "IITM"
+                        "IITM",
+                        "NIT TRICHY "
                     ],
                     "schools": []
                 },
@@ -2825,7 +2828,9 @@
                 },
                 {
                     "name": "Sahibzada Ajit Singh Nagar (Mohali)",
-                    "colleges": [],
+                    "colleges": [
+                        "Chandigarh Group of Colleges Jhanjeri"
+                    ],
                     "schools": []
                 },
                 {
@@ -3250,7 +3255,8 @@
                     "name": "Hyderabad",
                     "colleges": [
                         "Shadan college of engineering and technology ",
-                        "G. Narayanamma Institute of Technology and Sciences"
+                        "G. Narayanamma Institute of Technology and Sciences",
+                        "CMR TECHNICAL CAMPUS "
                     ],
                     "schools": []
                 },
@@ -3767,7 +3773,8 @@
                 {
                     "name": "Kanpur Nagar",
                     "colleges": [
-                        "Vellore institute of technology "
+                        "Vellore institute of technology ",
+                        "Axis Institute of Technology and Management "
                     ],
                     "schools": []
                 },
